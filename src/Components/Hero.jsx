@@ -5,6 +5,7 @@ import HttpsIcon from '@mui/icons-material/Https'
 import RefreshIcon from '@mui/icons-material/Refresh'
 import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser'
 import TabIcon from '@mui/icons-material/Tab'
+import memoji from '../assets/Images/memoji.png'
 import './Hero.css'
 
 function Hero() {
@@ -42,7 +43,7 @@ function Hero() {
       </div>
       <div className='hero'>
         <div className='hero-img-container'>
-          <img src='assets/Images/memoji.png' alt='' className='hero-img' />
+          <img src={memoji} alt='' className='hero-img' />
         </div>
         <div className='hero-container'>
           <h1 className='hero-title'>
