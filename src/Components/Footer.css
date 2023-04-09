@@ -1,0 +1,32 @@
+footer {
+  background-color: rgba(51, 51, 51, 0.5);
+  color: #fff;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-around;
+  transition: background-color 0.3s ease;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  width: 55vw;
+  max-width: 500px;
+}
+
+footer:hover {
+  background-color: rgba(51, 51, 51, 0.7);
+}
+
+.icon-wrapper {
+  margin: 0 10px;
+}
+
+.icon-img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transform: translateY(-3px);
+  transition: transform 0.3s ease;
+}
+
+.icon-text {
+  font-size: 0.75rem;
+  font-weight: 300;
+}

@@ -1,0 +1,28 @@
+header {
+  background-color: rgba(51, 51, 51, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  width: 100%;
+}
+
+.column-flex {
+  display: flex;
+  align-items: center;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+  margin-right: 0.5rem;
+}
+
+.header-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.header-time {
+  margin-left: 0.5rem;
+}

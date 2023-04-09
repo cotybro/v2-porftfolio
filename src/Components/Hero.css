@@ -1,0 +1,136 @@
+.hero-wrapper {
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.top-bar {
+  background-color: rgba(60, 55, 52, 255);
+  width: 70vw;
+  max-width: 1000px;
+  padding: 7px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.circle-btn {
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: rgba(252, 95, 86, 255);
+}
+
+.yellow {
+  background-color: rgba(255, 195, 51, 255);
+}
+
+.green {
+  background-color: rgba(40, 197, 62, 255);
+  margin-right: 15px;
+}
+
+.right {
+  margin-right: 14px;
+}
+
+.arrow-container,
+.right-container {
+  display: flex;
+  padding: 3px 6px;
+  background-color: rgba(105, 104, 107, 255);
+  border-radius: 3px;
+}
+
+.arrow-flip {
+  transform: rotate(180deg);
+  margin-left: 2px;
+}
+
+.middle-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  background-color: rgba(109, 109, 110, 255);
+  border-radius: 5px;
+  padding: 3px 8px;
+}
+
+.url {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.lock-img {
+  margin-right: 5px;
+}
+
+.right-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.hero {
+  background-color: rgba(30, 30, 30, 255);
+  width: 70vw;
+  max-width: 1000px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.hero-title {
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.hero-title span {
+  text-decoration: underline;
+  text-decoration-color: #ec4235;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.hero-text {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: rgba(109, 109, 110, 255);
+  border-radius: 50%;
+}
+
+.hero-img-container {
+  height: 150px;
+  margin-bottom: 1.25rem;
+}
