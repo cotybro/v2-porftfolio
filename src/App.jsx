@@ -6,8 +6,8 @@ import Projects from './Components/Projects'
 import Contact from './Components/Contact'
 import './App.css'
 function App() {
-  const [showHero, setShowHero] = useState(false)
-  const [showProjects, setShowProjects] = useState(true)
+  const [showHero, setShowHero] = useState(true)
+  const [showProjects, setShowProjects] = useState(false)
   const [showContact, setShowContact] = useState(false)
 
   const handleHeroClick = () => {
