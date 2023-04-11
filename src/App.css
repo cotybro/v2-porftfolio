@@ -23,4 +23,24 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(60, 55, 52, 255);
+  border-bottom-right-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #747474;
+  border-radius: 5px;
+}
+
+.circle-btn:hover {
+  cursor: pointer;
 }

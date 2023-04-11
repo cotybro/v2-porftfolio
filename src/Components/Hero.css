@@ -1,12 +1,12 @@
 .hero-wrapper {
   box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .top-bar {
   background-color: rgba(60, 55, 52, 255);
-  width: 70vw;
-  max-width: 1000px;
+  width: 80vw;
+  max-width: 1200px;
   padding: 7px 0;
   display: flex;
   justify-content: space-between;
@@ -92,17 +92,22 @@
 
 .hero {
   background-color: rgba(30, 30, 30, 255);
-  width: 70vw;
-  max-width: 1000px;
-  height: 60vh;
+  width: 80vw;
+  max-width: 1200px;
+  height: 75vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   line-height: 1.5;
   letter-spacing: 0.5px;
   border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 5px;
+  padding: 0 10px;
+  overflow: auto;
+}
+
+.hero-container {
+  margin-bottom: 2.25rem;
 }
 
 .hero-title {
@@ -118,7 +123,8 @@
 }
 
 .hero-text {
-  max-width: 70%;
+  width: 80%;
+  max-width: 920px;
   margin: 0 auto;
 }
 
@@ -132,5 +138,99 @@
 
 .hero-img-container {
   height: 150px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.about-me {
+  margin-bottom: 2.25rem;
+}
+
+.about-me-title {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.about-me-title::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 7rem;
+  height: 2px;
+  background-color: #ec4235;
+  border-radius: 5px;
+}
+
+.about-me-text {
+  width: 80%;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.future-skills-title,
+.skills-title {
+  text-align: center;
+  text-transform: capitalize;
   margin-bottom: 1.25rem;
+}
+
+.skills-title::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 2.25rem;
+  height: 2px;
+  background-color: #ec4235;
+  border-radius: 5px;
+}
+
+.future-skills-title::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 7rem;
+  height: 2px;
+  background-color: #ec4235;
+  border-radius: 5px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2.25rem;
+}
+
+.skill {
+  background-color: #ec4235;
+  font-size: 0.9rem;
+  padding: 0.35rem 0.9rem;
+  border-radius: 8px;
+  margin: 0.5rem;
+}
+
+.social-links {
+  margin-bottom: 2.25rem;
+}
+
+.social-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.social-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  color: #ec4235;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #fff;
+}
+
+.website-footer {
+  padding: 1rem 0;
+  font-size: 0.75rem;
 }

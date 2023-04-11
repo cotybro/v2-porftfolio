@@ -1,0 +1,130 @@
+.contact {
+  background-color: rgba(41, 49, 67, 255);
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+  width: 80vw;
+  max-width: 900px;
+  height: 70vh;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+  padding-right: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+  padding: 20px 10px;
+  color: #000;
+  overflow: auto;
+}
+
+.contact-left-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.refresh-icon {
+  color: rgba(61, 69, 87, 255);
+}
+
+.refresh-icon:hover {
+  cursor: pointer;
+  color: rgba(109, 155, 200, 255);
+}
+
+.contact-left-bottom {
+  margin-top: 1.15rem;
+}
+
+.email-tab {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+}
+
+.email-tab:hover {
+  cursor: pointer;
+  background-color: rgba(61, 69, 87, 255);
+}
+
+.email-icon {
+  margin-right: 10px;
+  color: rgba(109, 155, 200, 255);
+}
+
+.email-tab-text {
+  color: #fff;
+}
+
+.middle-column {
+  margin-left: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  border: 1px solid rgba(131, 132, 135, 255);
+  color: rgba(131, 132, 135, 255);
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.search-container:hover {
+  background-color: rgba(61, 69, 87, 255);
+  border-color: rgba(109, 155, 200, 255);
+}
+
+.search-container:hover .search-icon {
+  color: rgba(109, 155, 200, 255);
+}
+
+.search-icon {
+  margin-right: 7px;
+}
+
+.email-container {
+  border: 1px solid rgba(131, 132, 135, 255);
+  font-size: 0.8rem;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.email-inbox-container {
+  border-bottom: 1px solid rgba(61, 69, 87, 255);
+  padding: 0.8rem 0.75rem;
+  border-radius: 5px;
+}
+
+.email-inbox-container:hover {
+  background-color: rgba(61, 69, 87, 255);
+  cursor: pointer;
+}
+
+.email-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+}
+
+.email-sender {
+  margin-right: 10px;
+}
+
+.right-column {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.success-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  height: 100%;
+  color: #fff;
+  font-size: 1.15rem;
+}
