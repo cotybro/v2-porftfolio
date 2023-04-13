@@ -45,7 +45,7 @@ function Hero() {
       </div>
       <div className='hero'>
         <div className='hero-img-container'>
-          <img src={memoji} alt='' className='hero-img' />
+          <img src={memoji} alt='Coty Breault' className='hero-img' />
         </div>
         <div className='hero-container'>
           <h1 className='hero-title'>
