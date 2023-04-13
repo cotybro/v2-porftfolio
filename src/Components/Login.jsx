@@ -16,7 +16,7 @@ function Login(props) {
             onClick={props.login}
           />
         </div>
-        <h2 className='login-title'>Coty Breault Portfolio</h2>
+        <h2 className='login-title'>Coty Breault's Portfolio</h2>
       </div>
       <div className='login-bottom'>
         <div className='login-col'>
