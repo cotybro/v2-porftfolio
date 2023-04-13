@@ -55,3 +55,8 @@ body {
 .circle-btn:hover {
   cursor: pointer;
 }
+
+header {
+  position: relative;
+  z-index: 1;
+}
