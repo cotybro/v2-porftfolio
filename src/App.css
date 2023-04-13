@@ -13,6 +13,17 @@
   padding: 0;
 }
 
+body {
+  overflow: hidden;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .app-container {
   height: 100vh;
   background-color: transparent;
