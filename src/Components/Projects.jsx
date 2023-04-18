@@ -68,7 +68,7 @@ function Projects() {
                 sx={{ fontSize: 26 }}
                 className='folder-icon'
               />
-              Project1
+              Expense Chart
             </button>
             <button
               className={`panel-section ${activeProject === 2 ? 'active' : ''}`}
@@ -78,7 +78,7 @@ function Projects() {
                 sx={{ fontSize: 26 }}
                 className='folder-icon'
               />
-              Project2
+              Multi-Step Form
             </button>
             <button
               className={`panel-section ${activeProject === 3 ? 'active' : ''}`}

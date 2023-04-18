@@ -35,6 +35,8 @@ function Project_Two() {
             <p className='skill accent-btn'>HTML</p>
             <p className='skill accent-btn'>CSS</p>
             <p className='skill accent-btn'>React</p>
+            <p className='skill accent-btn'>JSX</p>
+            <p className='skill accent-btn'>JS</p>
           </div>
         </div>
       </div>
