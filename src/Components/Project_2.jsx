@@ -1,23 +1,31 @@
 import React from 'react'
-
+import projectTwoImg from '../assets/Images/project-two.png'
 function Project_Two() {
   return (
     <div className='project'>
       <div className='project-image-container'>
-        <img src='' alt='Project Two' className='project-img' />
+        <img src={projectTwoImg} alt='Project Two' className='project-img' />
       </div>
       <div className='project-bottom'>
         <p className='project-desc'>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-          recusandae ipsa officiis vel, molestiae asperiores quas vero neque
-          officia optio deserunt porro, nesciunt soluta eos laboriosam error
-          dolorum praesentium suscipit.
+          The project is a multi-step form that allows users to select various
+          subscription add-ons and choose between monthly or yearly
+          subscriptions. It is built using ReactJS and utilizes React state and
+          useEffect hooks to maintain its state throughout the entire process.
         </p>
         <div className='project-button-container'>
-          <a href='' target='_blank' className='project-btn mr-10'>
+          <a
+            href='https://multi-step-form-jade.vercel.app/'
+            target='_blank'
+            className='project-btn mr-10'
+          >
             View Project
           </a>
-          <a href='' target='_blank' className='project-btn'>
+          <a
+            href='https://github.com/cotybro/Multi-Step-Form'
+            target='_blank'
+            className='project-btn'
+          >
             View Code
           </a>
         </div>
@@ -27,7 +35,6 @@ function Project_Two() {
             <p className='skill accent-btn'>HTML</p>
             <p className='skill accent-btn'>CSS</p>
             <p className='skill accent-btn'>React</p>
-            <p className='skill accent-btn'>ApexCharts</p>
           </div>
         </div>
       </div>
