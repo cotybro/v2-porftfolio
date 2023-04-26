@@ -88,7 +88,7 @@ function Projects() {
                 sx={{ fontSize: 26 }}
                 className='folder-icon'
               />
-              Project3
+              Designo
             </button>
             <button
               className={`panel-section ${activeProject === 4 ? 'active' : ''}`}

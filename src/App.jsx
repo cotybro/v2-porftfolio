@@ -8,11 +8,11 @@ import Login from './Components/Login'
 import './App.css'
 
 function App() {
-  const [showHero, setShowHero] = useState(false)
+  const [showHero, setShowHero] = useState(true)
   const [showProjects, setShowProjects] = useState(false)
   const [showContact, setShowContact] = useState(false)
   const [showLogin, setShowLogin] = useState(true)
-  const [showFooter, setShowFooter] = useState(false)
+  const [showFooter, setShowFooter] = useState(true)
 
   const handleHeroClick = () => {
     setShowHero(true)
@@ -41,7 +41,7 @@ function App() {
   return (
     <div className='app-container'>
       <Header />
-      {showLogin && <Login login={handleLoginClick} />}
+      {/* {showLogin && <Login login={handleLoginClick} />} */}
       {showHero && <Hero />}
       {showProjects && <Projects />}
       {showContact && <Contact />}

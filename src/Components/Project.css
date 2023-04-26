@@ -19,13 +19,22 @@
   border-radius: 10px;
 }
 
+.project-three-scroll {
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.project-three-scroll img {
+  height: 250%;
+}
+
 .project-desc {
   font-size: 1rem;
 }
 
 .project-bottom {
   width: 95%;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .project-button-container {
@@ -47,6 +56,10 @@
   transition: all 0.3s ease-in-out;
   letter-spacing: 1px;
   text-decoration: none;
+}
+
+.project-btn:first-child {
+  margin-right: 1.5rem;
 }
 
 .project-btn:hover {

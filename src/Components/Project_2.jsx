@@ -8,16 +8,16 @@ function Project_Two() {
       </div>
       <div className='project-bottom'>
         <p className='project-desc'>
-          The project is a multi-step form that allows users to select various
-          subscription add-ons and choose between monthly or yearly
-          subscriptions. It is built using ReactJS and utilizes React state and
-          useEffect hooks to maintain its state throughout the entire process.
+          A multi-step form that allows users to select various subscription
+          add-ons and choose between monthly or yearly subscriptions. It is
+          built using ReactJS and utilizes React state and useEffect hooks to
+          maintain its state throughout the entire process.
         </p>
         <div className='project-button-container'>
           <a
             href='https://multi-step-form-jade.vercel.app/'
             target='_blank'
-            className='project-btn mr-10'
+            className='project-btn'
           >
             View Project
           </a>

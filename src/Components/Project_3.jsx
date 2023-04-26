@@ -1,23 +1,35 @@
 import React from 'react'
+import project_Three from '../assets/Images/project-three.png'
 
 function Project_Three() {
   return (
     <div className='project'>
-      <div className='project-image-container'>
-        <img src='' alt='Project Three' className='project-img' />
+      <div className='project-image-container project-three-scroll'>
+        <img
+          src={project_Three}
+          alt='Designo 7 Page Website'
+          className='project-img'
+        />
       </div>
       <div className='project-bottom'>
         <p className='project-desc'>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-          recusandae ipsa officiis vel, molestiae asperiores quas vero neque
-          officia optio deserunt porro, nesciunt soluta eos laboriosam error
-          dolorum praesentium suscipit.
+          Designo is a fully responsive 7-page website that follows a
+          mobile-first approach in its CSS design. It employs React JS and React
+          Router for page navigation.
         </p>
         <div className='project-button-container'>
-          <a href='' target='_blank' className='project-btn mr-10'>
+          <a
+            href='https://designo-six.vercel.app/'
+            target='_blank'
+            className='project-btn'
+          >
             View Project
           </a>
-          <a href='' target='_blank' className='project-btn'>
+          <a
+            href='https://github.com/cotybro/designo'
+            target='_blank'
+            className='project-btn'
+          >
             View Code
           </a>
         </div>
@@ -27,7 +39,7 @@ function Project_Three() {
             <p className='skill accent-btn'>HTML</p>
             <p className='skill accent-btn'>CSS</p>
             <p className='skill accent-btn'>React</p>
-            <p className='skill accent-btn'>ApexCharts</p>
+            <p className='skill accent-btn'>React Router</p>
           </div>
         </div>
       </div>

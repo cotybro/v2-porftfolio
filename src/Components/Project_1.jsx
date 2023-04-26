@@ -19,7 +19,7 @@ function Project_One() {
           <a
             href='https://expense-chart-component-awnlvon4m-cotybro.vercel.app/'
             target='_blank'
-            className='project-btn mr-10'
+            className='project-btn'
           >
             View Project
           </a>
@@ -37,6 +37,7 @@ function Project_One() {
             <p className='skill accent-btn'>HTML</p>
             <p className='skill accent-btn'>CSS</p>
             <p className='skill accent-btn'>React</p>
+            <p className='skill accent-btn'>JSX</p>
             <p className='skill accent-btn'>ApexCharts</p>
           </div>
         </div>
