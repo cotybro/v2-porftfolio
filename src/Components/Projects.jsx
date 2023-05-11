@@ -4,6 +4,7 @@ import Project_1 from './Project_1'
 import Project_2 from './Project_2'
 import Project_3 from './Project_3'
 import Project_4 from './Project_4'
+import Project_5 from './Project_5'
 
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew'
 import SearchIcon from '@mui/icons-material/Search'
@@ -98,7 +99,17 @@ function Projects() {
                 sx={{ fontSize: 26 }}
                 className='folder-icon'
               />
-              Project4
+              Planet Fact Site
+            </button>
+            <button
+              className={`panel-section ${activeProject === 5 ? 'active' : ''}`}
+              onClick={() => setActiveProject(5)}
+            >
+              <FolderSpecialIcon
+                sx={{ fontSize: 26 }}
+                className='folder-icon'
+              />
+              Planet Fact Site
             </button>
           </div>
         </div>
@@ -107,6 +118,7 @@ function Projects() {
           {activeProject === 2 && <Project_2 />}
           {activeProject === 3 && <Project_3 />}
           {activeProject === 4 && <Project_4 />}
+          {activeProject === 5 && <Project_5 />}
         </div>
       </div>
     </div>
