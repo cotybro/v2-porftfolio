@@ -45,11 +45,11 @@ function Hero() {
       </div>
       <div className='hero'>
         <div className='hero-img-container'>
-          <img src={memoji} alt='Coty Breault' className='hero-img' />
+          <img src={memoji} alt='Coty B' className='hero-img' />
         </div>
         <div className='hero-container'>
           <h1 className='hero-title'>
-            Hey, My Name Is <span>Coty Breault</span>
+            Hey, My Name Is <span>Coty B</span>
           </h1>
           <p className='hero-text'>
             As a frontend web developer, I thrive on the challenges of coding
@@ -100,11 +100,7 @@ function Hero() {
             >
               <GitHubIcon sx={{ fontSize: 30 }} className='mr-10' />
             </a>
-            <a
-              href='https://www.linkedin.com/in/coty-breault/'
-              target='_blank'
-              className='social-icon'
-            >
+            <a href='#' target='_blank' className='social-icon'>
               <LinkedInIcon sx={{ fontSize: 30 }} />
             </a>
           </div>
