@@ -12,7 +12,7 @@
   grid-template-columns: 1fr 1fr 3fr;
   padding: 20px 10px;
   color: #000;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .contact-left-top {
@@ -57,6 +57,8 @@
 
 .middle-column {
   margin-left: 20px;
+  overflow: scroll;
+  max-height: 530px;
 }
 
 .search-container {
@@ -127,4 +129,20 @@
   height: 100%;
   color: #fff;
   font-size: 1.15rem;
+}
+
+@media screen and (max-width: 700px) {
+  .left-column {
+    display: none;
+  }
+
+  .middle-column {
+    display: none;
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+    overflow: hidden;
+    width: 98vw;
+  }
 }

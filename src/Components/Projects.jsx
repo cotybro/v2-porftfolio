@@ -109,7 +109,7 @@ function Projects() {
                 sx={{ fontSize: 26 }}
                 className='folder-icon'
               />
-              Planet Fact Site
+              Shortly
             </button>
           </div>
         </div>

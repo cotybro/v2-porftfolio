@@ -95,3 +95,45 @@
 .folder-icon {
   margin: 0 10px;
 }
+
+@media screen and (max-width: 700px) {
+  .top-bar-projects {
+    display: none;
+  }
+  .projects {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-panel-container {
+    position: static;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    border-radius: 0;
+    overflow: scroll;
+  }
+
+  .folder-icon {
+    position: absolute;
+    opacity: 0;
+  }
+
+  .panel-section {
+    padding: 0 0.5rem;
+  }
+
+  .panel-section:not(:last-child) {
+    border-right: 1px solid hsla(0, 0%, 100%, 0.25);
+  }
+
+  .project-img {
+    object-fit: contain;
+  }
+
+  .project-three-scroll {
+    max-height: 300px;
+  }
+}
