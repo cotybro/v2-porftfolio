@@ -142,7 +142,8 @@
 
   .contact {
     grid-template-columns: 1fr;
-    overflow: hidden;
+    overflow: scroll;
     width: 98vw;
+    height: 60vh;
   }
 }
