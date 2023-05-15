@@ -114,6 +114,8 @@
     display: flex;
     border-radius: 0;
     overflow: scroll;
+    background-color: transparent;
+    padding: 10px 10px;
   }
 
   .folder-icon {
@@ -122,11 +124,15 @@
   }
 
   .panel-section {
-    padding: 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+    border: 1px solid hsla(0, 0%, 100%, 0.25);
+    border-radius: 5px;
   }
 
   .panel-section:not(:last-child) {
-    border-right: 1px solid hsla(0, 0%, 100%, 0.25);
+    margin-right: 5px;
   }
 
   .project-img {
