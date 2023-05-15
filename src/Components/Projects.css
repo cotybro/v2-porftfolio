@@ -129,6 +129,7 @@
     padding: 0 10px;
     border: 1px solid hsla(0, 0%, 100%, 0.25);
     border-radius: 5px;
+    font-size: 0.875rem;
   }
 
   .panel-section:not(:last-child) {
