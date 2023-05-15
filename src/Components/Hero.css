@@ -245,4 +245,8 @@
     width: 98vw;
     height: 80vh;
   }
+
+  .hero-img-container {
+    height: 150px;
+  }
 }
