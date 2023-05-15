@@ -246,6 +246,10 @@
     height: 60vh;
   }
 
+  .hero-title {
+    padding: 0 1rem;
+  }
+
   .hero-img-container {
     width: 150px;
   }
