@@ -52,10 +52,6 @@ body {
   border-radius: 5px;
 }
 
-.circle-btn:hover {
-  cursor: pointer;
-}
-
 header {
   position: relative;
   z-index: 1;

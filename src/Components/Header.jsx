@@ -30,7 +30,7 @@ function Header() {
   return (
     <header>
       <div className='header-column'>
-        <p>{'< />'} Coty B</p>
+        <p>{'< />'} Coty.Codes</p>
       </div>
       <div className='header-column column-flex'>
         <p className='header-icon'>

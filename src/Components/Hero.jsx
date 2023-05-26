@@ -29,7 +29,7 @@ function Hero() {
           <SubjectIcon sx={{ fontSize: 18 }} />
           <div className='url'>
             <HttpsIcon sx={{ fontSize: 16 }} className='lock-img' />
-            <p className='middle-text'>CotyBreault.com</p>
+            <p className='middle-text'>Coty.Codes</p>
           </div>
           <RefreshIcon sx={{ fontSize: 18 }} />
         </div>
@@ -45,11 +45,11 @@ function Hero() {
       </div>
       <div className='hero'>
         <div className='hero-img-container'>
-          <img src={memoji} alt='Coty B' className='hero-img' />
+          <img src={memoji} alt='Coty Breault' className='hero-img' />
         </div>
         <div className='hero-container'>
           <h1 className='hero-title'>
-            Hey, My Name Is <span>Coty B</span>
+            Hey, My Name Is <span>Coty Breault</span>
           </h1>
           <p className='hero-text'>
             As a frontend web developer, I thrive on the challenges of coding
@@ -100,12 +100,16 @@ function Hero() {
             >
               <GitHubIcon sx={{ fontSize: 30 }} className='mr-10' />
             </a>
-            <a href='#' target='_blank' className='social-icon'>
+            <a
+              href='https://www.linkedin.com/in/coty-breault/'
+              target='_blank'
+              className='social-icon'
+            >
               <LinkedInIcon sx={{ fontSize: 30 }} />
             </a>
           </div>
         </div>
-        <footer className='website-footer'>Copyright &copy;2023</footer>
+        <footer className='website-footer'>Coty.Codes &copy;2023</footer>
       </div>
     </div>
   )

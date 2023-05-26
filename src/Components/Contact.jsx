@@ -42,69 +42,6 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div className='middle-column'>
-        <div className='middle-column-top'>
-          <div className='search-container'>
-            <SearchIcon sx={{ fontSize: 18 }} className='search-icon' />
-            <p className='search-text'>Search</p>
-          </div>
-        </div>
-        <div className='middle-column-bottom'>
-          <div className='email-container'>
-            <div className='email-inbox-container'>
-              <div className='email-top'>
-                <p className='email-sender'>HitGub</p>
-                <p className='email-time'>10:24 AM</p>
-              </div>
-              <div className='email-bottom'>
-                <p className='email-text'>
-                  HitGub Pilot: Ready to fly into the future?
-                </p>
-              </div>
-            </div>
-            <div className='email-inbox-container'>
-              <div className='email-top'>
-                <p className='email-sender'>LinkedOut</p>
-                <p className='email-time'>9:15 AM</p>
-              </div>
-              <div className='email-bottom'>
-                <p className='email-text'>You have 100 new connections.</p>
-              </div>
-            </div>
-            <div className='email-inbox-container'>
-              <div className='email-top'>
-                <p className='email-sender'>Zcrimba</p>
-                <p className='email-time'>Yesterday</p>
-              </div>
-              <div className='email-bottom'>
-                <p className='email-text'>
-                  Zcrimba: The best way to learn coding!
-                </p>
-              </div>
-            </div>
-            <div className='email-inbox-container'>
-              <div className='email-top'>
-                <p className='email-sender'>Pode Cen</p>
-                <p className='email-time'>Yesterady</p>
-              </div>
-              <div className='email-bottom'>
-                <p className='email-text'>Try our new gritbox for your code!</p>
-              </div>
-            </div>
-            <div className='email-inbox-container'>
-              <div className='email-top'>
-                <p className='email-sender'>FelloHresh</p>
-                <p className='email-time'>Friday</p>
-              </div>
-              <div className='email-bottom'>
-                <p className='email-text'>
-                  The best way to have have meals with no waste!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className='right-column'>
         <div className='contact-form'>
           <ContactForm />
