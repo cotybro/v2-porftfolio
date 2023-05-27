@@ -52,25 +52,27 @@ function Hero() {
             Hey, My Name Is <span>Coty Breault</span>
           </h1>
           <p className='hero-text'>
-            As a frontend web developer, I thrive on the challenges of coding
-            and turning ideas into reality. My favorite tool for this is React
-            JS, which allows me to create beautiful and functional web
+            I am a frontend developer who is passionate about turning ideas into
+            reality, and enjoys the challenge of coding. My favorite tool for
+            this is React JS, which helps me create attractive and practical web
             applications.
           </p>
         </div>
         <div className='about-me'>
           <h2 className='about-me-title'>About Me</h2>
           <p className='about-me-text'>
-            Based in Minnesota, USA, I am a passionate frontend developer who
-            loves to turn concepts into reality through website development. My
-            toolkit includes React JS, JavaScript, CSS, and Figma, which allow
-            me to design and develop visually stunning and functional user
-            interfaces that engage and delight visitors.
+            Based in Minnesota, USA, known for its beautiful lakes, I enjoy
+            spending my free time golfing and playing video games. As a frontend
+            developer, I have a strong passion for continuously expanding and
+            diversifying my skill set. I am always eager to learn and adopt new
+            technologies, frameworks, and tools to stay up-to-date with the
+            latest advancements in the field. Currently, I am actively searching
+            for remote work opportunities as a frontend developer.
           </p>
         </div>
         <div className='skills-container'>
           <div className='skills'>
-            <h2 className='skills-title'>Skills</h2>
+            <h2 className='skills-title'>ToolKit</h2>
             <div className='skills-container'>
               <p className='skill'>HTML</p>
               <p className='skill'>CSS</p>
