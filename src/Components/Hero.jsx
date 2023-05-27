@@ -66,8 +66,8 @@ function Hero() {
             developer, I have a strong passion for continuously expanding and
             diversifying my skill set. I am always eager to learn and adopt new
             technologies, frameworks, and tools to stay up-to-date with the
-            latest advancements in the field. Currently, I am actively searching
-            for remote work opportunities as a frontend developer.
+            latest advancements in the field. Currently, I am searching for
+            remote work opportunities as a frontend developer.
           </p>
         </div>
         <div className='skills-container'>
